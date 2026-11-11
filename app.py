@@ -1,0 +1,11 @@
+import streamlit as st
+st.title("AI-Based Food Quality and Freshness Prediction System")
+st.write("Welcome to our AI Food Freshness Project!")
+st.subheader("Food Categories")
+st.write("1. Fruits")
+st.write("2. Vegetables")
+st.write("3. Meat")
+st.write("4. Seafood")
+st.write("5. Dairy Products")
+st.write("6. Bakery Products")
+st.write("7. Cooked Food")
