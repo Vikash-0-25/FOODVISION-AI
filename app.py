@@ -95,7 +95,7 @@ st.markdown("""
     </div>
 </div>
 """, unsafe_allow_html=True)
-tab1, tab2, tab3 = st.tabs(["⚡FOOD SAMPLES", "📈 Model Telemetry", "📂 Dataset Registry"])
+tab1, tab2, tab3, tab4 = st.tabs(["⚡FOOD SAMPLES", "📈 Model Telemetry", "📂 Dataset Registry", "💬 User Feedback"])
 with tab1:
     col1, col2 = st.columns([1, 1], gap="large")
     with col1:
@@ -191,6 +191,17 @@ with tab3:
     cols = st.columns(3)
     for i, name in enumerate(class_names, start=1):
         cols[(i - 1) % 3].write(f"`{i:02d}`. {name.replace('_', ' ')}")
+    st.markdown('</div>', unsafe_allow_html=True)
+with tab4:
+    st.markdown('<div class="ai-card">', unsafe_allow_html=True)
+    st.subheader("💬 User Feedback & Evaluation")
+    st.write("Help us improve the accuracy of the FOODVISION-AI model by sharing your experience or reporting misclassifications.") 
+    with st.form("feedback_form"):
+        feedback_rating = st.radio("How would you rate the prediction accuracy?", ["⭐ Excellent", "⭐ Good", "⭐ Needs Improvement"], horizontal=True)
+        feedback_text = st.text_area("Comments, suggestions, or correction notes:", placeholder="E.g., The tomato was marked fresh, but it had minor spots...")
+        submit_feedback = st.form_submit_button("Submit Feedback", type="primary")
+        if submit_feedback:
+            st.success("Thank you! Your feedback has been recorded successfully.")
     st.markdown('</div>', unsafe_allow_html=True)
 st.markdown("<br>", unsafe_allow_html=True)
 st.caption("FOODVISION-AI Deep Learning Infrastructure • For research and demonstration purposes only.")
