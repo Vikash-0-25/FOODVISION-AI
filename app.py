@@ -146,6 +146,7 @@ with tab1:
             type=["jpg", "jpeg", "png", "webp"]
         )
         image = None
+        
         if uploaded_file is not None:
             try:
                 image = Image.open(uploaded_file).convert("RGB")
