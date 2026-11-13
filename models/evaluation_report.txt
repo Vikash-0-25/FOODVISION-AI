@@ -1,0 +1,49 @@
+Test Accuracy: 74.64755773544312%
+                     precision    recall  f1-score   support
+
+        Apple_Fresh       0.78      0.93      0.85       515
+       Apple_Rotten       0.78      0.76      0.77       666
+       Banana_Fresh       0.91      0.84      0.87       521
+      Banana_Rotten       0.94      0.76      0.84       606
+         Beef_Fresh       0.98      0.96      0.97       246
+        Beef_Rotten       0.95      0.99      0.97       246
+   Bellpepper_Fresh       0.53      0.84      0.65        92
+  Bellpepper_Rotten       0.26      0.47      0.33        89
+  Bittergourd_Fresh       0.76      1.00      0.86        50
+ Bittergourd_Rotten       0.77      1.00      0.87        54
+     Capsicum_Fresh       0.92      1.00      0.96       149
+    Capsicum_Rotten       0.86      1.00      0.92       136
+       Carrot_Fresh       0.78      0.70      0.74      1485
+      Carrot_Rotten       0.52      0.79      0.63       363
+      Chicken_Fresh       0.65      0.99      0.78        98
+     Chicken_Rotten       0.98      0.50      0.66        98
+     Cucumber_Fresh       0.88      0.40      0.55       166
+    Cucumber_Rotten       0.71      0.81      0.76       153
+     Fish_Eye_Fresh       0.76      0.44      0.56       463
+    Fish_Eye_Rotten       0.36      0.76      0.49       196
+     Mackerel_Fresh       0.70      0.70      0.70        33
+    Mackerel_Rotten       0.93      0.52      0.67        96
+        Mango_Fresh       0.52      0.87      0.65        91
+       Mango_Rotten       0.45      0.88      0.60        89
+       Mutton_Fresh       0.97      1.00      0.99        75
+      Mutton_Rotten       0.91      1.00      0.96        75
+       Orange_Fresh       0.91      0.68      0.78      1625
+      Orange_Rotten       0.55      0.75      0.63       494
+       Potato_Fresh       0.52      0.80      0.63       173
+      Potato_Rotten       0.66      0.62      0.64       209
+  Silver_Barb_Fresh       0.98      0.75      0.85       120
+ Silver_Barb_Rotten       0.66      1.00      0.79        60
+   Strawberry_Fresh       0.43      0.98      0.59        91
+  Strawberry_Rotten       0.60      0.87      0.71        90
+      Tilapia_Fresh       0.38      0.20      0.26        30
+     Tilapia_Rotten       0.74      0.92      0.82        96
+       Tomato_Fresh       0.91      0.72      0.80      2053
+      Tomato_Rotten       0.63      0.69      0.66       603
+         Tuna_Fresh       0.46      0.87      0.60        30
+        Tuna_Rotten       0.65      0.92      0.76        96
+ ladiesfinger_Fresh       0.49      0.95      0.65        96
+ladiesfinger_Rotten       0.56      0.37      0.45        51
+
+           accuracy                           0.75     12768
+          macro avg       0.71      0.78      0.72     12768
+       weighted avg       0.79      0.75      0.75     12768
