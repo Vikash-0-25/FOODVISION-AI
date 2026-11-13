@@ -1,8 +1,21 @@
+
+# Python virtual environments
 .venv/
 .venv312/
 venv/
+env/
 
+# Python cache
 __pycache__/
 *.pyc
-prepared_dataset/
-models/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+
+# Model checkpoints and temporary files
+*.h5
+*.keras
+*.tmp
