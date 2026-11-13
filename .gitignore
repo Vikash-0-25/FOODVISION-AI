@@ -1,8 +1,8 @@
 .venv/
+.venv312/
+venv/
+
 __pycache__/
 *.pyc
-.env
-dataset/
-models/*.keras
-database/*.db
-.ipynb_checkpoints/
+prepared_dataset/
+models/
